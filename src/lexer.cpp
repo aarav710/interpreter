@@ -13,26 +13,26 @@ token lexer::next_token() {
     token token{};
     switch (current_char) {
         case '=':
-            token.set_type(token_type::ASSIGN);
+            token.type = ::ASSIGN;
         case '+':
-            token.set_type(token_type::PLUS);
+            token.type = ::PLUS;
         case '(':
-            token.set_type(token_type::LEFT_PAREN);
+            token.type = ::LEFT_PAREN;
         case ')':
-            token.set_type(token_type::RIGHT_PAREN);
+            token.type = ::RIGHT_PAREN;
         case '{':
-            token.set_type(token_type::LEFT_BRACE);
+            token.type = ::LEFT_BRACE;
         case '}':
-            token.set_type(token_type::RIGHT_BRACE);
+            token.type = ::RIGHT_BRACE;
         case ',':
-            token.set_type(token_type::COMMA);
+            token.type = ::COMMA;
         case ';':
-            token.set_type(token_type::SEMICOLON);
+            token.type = ::SEMICOLON;
         default:
-            token.set_type(token_type::END_OF_FILE);
+            token.type = ::END_OF_FILE;
     }
-    if (token.get_type() == token_type::END_OF_FILE) token.set_value('\0');
-    else token.set_value(current_char);
+    if (token.type == ::END_OF_FILE) token.value = '\0';
+    else token.value = current_char;
     read_char();
     return token;
 }
