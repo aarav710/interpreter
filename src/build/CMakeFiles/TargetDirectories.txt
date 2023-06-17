@@ -1,0 +1,4 @@
+/Users/aaravjain/Desktop/interpreter/src/build/CMakeFiles/interpreter_run.dir
+/Users/aaravjain/Desktop/interpreter/src/build/CMakeFiles/interpreter_lib.dir
+/Users/aaravjain/Desktop/interpreter/src/build/CMakeFiles/edit_cache.dir
+/Users/aaravjain/Desktop/interpreter/src/build/CMakeFiles/rebuild_cache.dir
