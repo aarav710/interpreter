@@ -31,19 +31,11 @@ enum token_type: int {
     LET,
 };
 
-class token {
-public:
-    token() = default;
-    token(char value, token_type type): value(value), type(type) {};
-    void set_value(char v) {value = v;};
-    void set_type(token_type t) {type = t;};
-    char get_value() {return value;};
-    char get_type() {return type;};
-
-private:
+struct token {
     char value;
     token_type type;
+    token(char v, token_type t): value(v), type(t){};
+    token(){};
 };
-
 
 #endif //INTERPRETER_TOKEN_H

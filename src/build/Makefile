@@ -178,24 +178,6 @@ main.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/interpreter_lib.dir/build.make CMakeFiles/interpreter_lib.dir/main.s
 .PHONY : main.s
 
-# target to build an object file
-token.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/interpreter_run.dir/build.make CMakeFiles/interpreter_run.dir/token.o
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/interpreter_lib.dir/build.make CMakeFiles/interpreter_lib.dir/token.o
-.PHONY : token.o
-
-# target to preprocess a source file
-token.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/interpreter_run.dir/build.make CMakeFiles/interpreter_run.dir/token.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/interpreter_lib.dir/build.make CMakeFiles/interpreter_lib.dir/token.i
-.PHONY : token.i
-
-# target to generate assembly for a file
-token.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/interpreter_run.dir/build.make CMakeFiles/interpreter_run.dir/token.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/interpreter_lib.dir/build.make CMakeFiles/interpreter_lib.dir/token.s
-.PHONY : token.s
-
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -212,9 +194,6 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
-	@echo "... token.o"
-	@echo "... token.i"
-	@echo "... token.s"
 .PHONY : help
 
 

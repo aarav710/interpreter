@@ -97,35 +97,19 @@ CMakeFiles/interpreter_lib.dir/main.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/interpreter_lib.dir/main.s"
 	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/aaravjain/Desktop/interpreter/src/main.cpp -o CMakeFiles/interpreter_lib.dir/main.s
 
-CMakeFiles/interpreter_lib.dir/token.o: CMakeFiles/interpreter_lib.dir/flags.make
-CMakeFiles/interpreter_lib.dir/token.o: /Users/aaravjain/Desktop/interpreter/src/token.cpp
-CMakeFiles/interpreter_lib.dir/token.o: CMakeFiles/interpreter_lib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/aaravjain/Desktop/interpreter/src/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/interpreter_lib.dir/token.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/interpreter_lib.dir/token.o -MF CMakeFiles/interpreter_lib.dir/token.o.d -o CMakeFiles/interpreter_lib.dir/token.o -c /Users/aaravjain/Desktop/interpreter/src/token.cpp
-
-CMakeFiles/interpreter_lib.dir/token.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/interpreter_lib.dir/token.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/aaravjain/Desktop/interpreter/src/token.cpp > CMakeFiles/interpreter_lib.dir/token.i
-
-CMakeFiles/interpreter_lib.dir/token.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/interpreter_lib.dir/token.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/aaravjain/Desktop/interpreter/src/token.cpp -o CMakeFiles/interpreter_lib.dir/token.s
-
 # Object files for target interpreter_lib
 interpreter_lib_OBJECTS = \
 "CMakeFiles/interpreter_lib.dir/lexer.o" \
-"CMakeFiles/interpreter_lib.dir/main.o" \
-"CMakeFiles/interpreter_lib.dir/token.o"
+"CMakeFiles/interpreter_lib.dir/main.o"
 
 # External object files for target interpreter_lib
 interpreter_lib_EXTERNAL_OBJECTS =
 
 libinterpreter_lib.a: CMakeFiles/interpreter_lib.dir/lexer.o
 libinterpreter_lib.a: CMakeFiles/interpreter_lib.dir/main.o
-libinterpreter_lib.a: CMakeFiles/interpreter_lib.dir/token.o
 libinterpreter_lib.a: CMakeFiles/interpreter_lib.dir/build.make
 libinterpreter_lib.a: CMakeFiles/interpreter_lib.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/aaravjain/Desktop/interpreter/src/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX static library libinterpreter_lib.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/aaravjain/Desktop/interpreter/src/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX static library libinterpreter_lib.a"
 	$(CMAKE_COMMAND) -P CMakeFiles/interpreter_lib.dir/cmake_clean_target.cmake
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/interpreter_lib.dir/link.txt --verbose=$(VERBOSE)
 

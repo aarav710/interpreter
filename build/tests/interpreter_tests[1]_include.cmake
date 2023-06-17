@@ -1,0 +1,5 @@
+if(EXISTS "/Users/aaravjain/Desktop/interpreter/build/tests/interpreter_tests[1]_tests.cmake")
+  include("/Users/aaravjain/Desktop/interpreter/build/tests/interpreter_tests[1]_tests.cmake")
+else()
+  add_test(interpreter_tests_NOT_BUILT interpreter_tests_NOT_BUILT)
+endif()

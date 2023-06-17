@@ -3,8 +3,6 @@ file(REMOVE_RECURSE
   "CMakeFiles/interpreter_lib.dir/lexer.o.d"
   "CMakeFiles/interpreter_lib.dir/main.o"
   "CMakeFiles/interpreter_lib.dir/main.o.d"
-  "CMakeFiles/interpreter_lib.dir/token.o"
-  "CMakeFiles/interpreter_lib.dir/token.o.d"
   "libinterpreter_lib.a"
   "libinterpreter_lib.pdb"
 )
