@@ -1,2 +1,0 @@
-/Library/Developer/CommandLineTools/usr/bin/ar qc libinterpreter_lib.a CMakeFiles/interpreter_lib.dir/lexer.cpp.o CMakeFiles/interpreter_lib.dir/main.cpp.o CMakeFiles/interpreter_lib.dir/token.cpp.o
-/Library/Developer/CommandLineTools/usr/bin/ranlib libinterpreter_lib.a
